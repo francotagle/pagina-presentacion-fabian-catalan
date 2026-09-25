@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Köcher Kine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <nav class="links">
+      <a href="#galeria">Galería</a>
+      <a href="#horarios">Horarios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="nav-right">
+      <div class="brand-group">
+        <img class="brand-icon" src="imagen/icono.png" alt="Köcher Kine">
+        <span class="brand">Fabian Catalan</span>
+      </div>
+      <a class="cta" href="#contacto">Reservar hora</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <p class="eyebrow">Kinesiología y rehabilitación</p>
+    <img class="logo" src="imagen/logo.png" alt="Köcher Kine – Rehabilitación y Entrenamiento">
+    <p class="desc">Trabajo la recuperación de movimiento después de una lesión, cirugía o dolor persistente: evaluación, terapia manual y un plan de ejercicio hecho a la medida de tu cuerpo, no de una plantilla.</p>
+  </section>
+
+  <div class="wave-divider" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="waveGrad" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#4C8577" stop-opacity="0.22"/>
+          <stop offset="100%" stop-color="#CFEAEC" stop-opacity="0.65"/>
+        </linearGradient>
+      </defs>
+      <path d="M0,40 C240,85 480,0 720,28 C960,56 1200,8 1440,38 L1440,80 L0,80 Z" fill="url(#waveGrad)"/>
+    </svg>
+  </div>
+
+  <section id="galeria" class="divider">
+    <div class="section-head"><h2>Galería</h2></div>
+    <div class="gallery">
+      <figure><img class="ph" src="imagen/WhatsApp Image 2026-09-22 at 4.41.51 PM.jpeg" alt="Elongación con bandas elásticas"><figcaption>Elongacion con bandas elasticas</figcaption></figure>
+      <figure><img class="ph" src="imagen/WhatsApp Image 2026-09-22 at 4.41.50 PM.jpeg" alt="Fuerza adaptada a tu cuerpo"><figcaption>Fuerza adaptada a tu cuerpo</figcaption></figure>
+      <figure><img class="ph" src="imagen/WhatsApp Image 2026-09-22 at 4.41.50 PM (1).jpeg" alt="Evaluación kinésica"><figcaption>Evaluación kinésica</figcaption></figure>
+      <figure><img class="ph" src="imagen/WhatsApp Image 2026-09-22 at 4.41.49 PM.jpeg" alt="Terapia manual"><figcaption>Terapia manual</figcaption></figure>
+      <figure><img class="ph" src="imagen/WhatsApp Image 2026-09-22 at 4.41.49 PM (1).jpeg" alt="Ejercicio guiado"><figcaption>Ejercicio guiado</figcaption></figure>
+      <figure><img class="ph" src="imagen/final1.JPG.jpeg" alt="Rehabilitación funcional"><figcaption>Rehabilitación funcional</figcaption></figure>
+      <figure><img class="ph" src="imagen/final2.jpeg" alt="Readaptación deportiva"><figcaption>Readaptación deportiva</figcaption></figure>
+      <figure><img class="ph" src="imagen/final3.JPG.jpeg" alt="Trabajo de equilibrio"><figcaption>Trabajo de equilibrio</figcaption></figure>
+      <figure><img class="ph" src="imagen/WhatsApp Image 2026-09-22 at 4.41.48 PM (1).jpeg" alt="Sesión en la consulta"><figcaption>Sesión en la consulta</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="horarios" class="divider">
+    <div class="section-head"><h2>Horarios de atención</h2></div>
+    <div class="sched">
+      <div class="week" id="week">
+        <div class="row" data-day="1"><span>Lunes</span><span>6:00 – 18:00</span></div>
+        <div class="row" data-day="2"><span>Martes</span><span>6:00 – 18:00</span></div>
+        <div class="row" data-day="3"><span>Miércoles</span><span>6:00 – 18:00</span></div>
+        <div class="row" data-day="4"><span>Jueves</span><span>6:00 – 18:00</span></div>
+        <div class="row" data-day="5"><span>Viernes</span><span>6:00 – 15:00</span></div>
+      </div>
+      <div class="hours-note">
+        <h3>Reserva de hora</h3>
+        <p>Las horas se agendan por WhatsApp o teléfono. Se recomienda avisar con un día de anticipación.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<section id="contacto" class="contact-band">
+  <div class="wrap contact-grid">
+    <div>
+      <h2>Escríbeme y coordinamos tu primera sesión</h2>
+      <p>Respondo por WhatsApp dentro del mismo día hábil.</p>
+      <a class="wa-btn" href="https://wa.me/56959322636" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.1-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18a7.9 7.9 0 0 1-4.03-1.1l-.29-.17-2.98.78.8-2.9-.19-.3A7.93 7.93 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.36-5.96c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1-.37-1.9-1.17-.7-.62-1.17-1.39-1.31-1.63-.14-.24-.01-.37.11-.49.12-.12.28-.31.42-.47.14-.16.19-.27.28-.45.09-.18.05-.34-.03-.47-.08-.13-.5-1.21-.68-1.65-.18-.44-.37-.38-.51-.39-.13-.01-.29-.01-.44-.01-.15 0-.4.06-.61.29-.21.23-.8.79-.8 1.93s.82 2.24.94 2.4c.12.16 1.6 2.44 3.88 3.32 2.28.88 2.28.59 2.69.55.41-.04 1.33-.55 1.52-1.08.19-.53.19-.98.13-1.08-.06-.1-.24-.16-.48-.28z"/></svg>
+        WhatsApp: reservar hora
+      </a>
+    </div>
+    <div class="contact-list">
+      <a href="tel:+56959322636">+56 9 5932 2636</a>
+      <a href="mailto:klgofabiancatalan@gmail.com">klgofabiancatalan@gmail.com</a>
+      <p>Ricardo Neumann Wittwer 1001, Puerto Varas</p>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">© 2026 Köcher Kine</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
